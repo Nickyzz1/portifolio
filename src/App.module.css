@@ -30,16 +30,6 @@
   padding-left: 10%;
 }
 
-.github
-{
-  display: flex ;
-  align-self: center;
-}
-#root .github{
-  display: flex;
-  align-items: center;
-  justify-content: center ;
-}
 
 .icon{
 
@@ -413,5 +403,93 @@
   height: 100%;
   z-index: -1; 
 }
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 5%;
+  }
+
+  .helloWorld {
+    padding-left: 5%;
+  }
+
+  .typeWriting {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .typeWriting2 {
+    font-size: 20px;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .button {
+    padding: 10px;
+  }
+
+  .skills {
+    width: 50px;
+  }
+
+  .academic {
+    width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 3%;
+  }
+  .perfil
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .helloWorld {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .myDescription
+  {
+    padding: 5%;
+  }
+
+  .typeWriting, .typeWriting2 {
+    font-size: 20px;
+  }
+
+  .skills {
+    width: 40px;
+  }
+
+  .academic {
+    width: 60px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+  .academic {
+   display: grid;
+
+}
+
+}
+
+
+
 
 

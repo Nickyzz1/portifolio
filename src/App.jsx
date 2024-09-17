@@ -8,9 +8,11 @@ function App() {
     <>
     <Navbar/>
 
+    <main>
+
     <div className={style.container} id="home">
             
-            <div>
+            <div className={style.perfil}>
                 <img src="https://i.pinimg.com/736x/d0/be/1b/d0be1b4391541895548d827ef558e550.jpg" alt=""/>
             </div>
             
@@ -23,7 +25,7 @@ function App() {
                     </div>
                 </section>
                 
-                <p>Hello world! Eu me chamo Nicolle, tenho 18 anos e tenho + de 1 ano de experiência no mundo digital. Sou apaixonada pela minha área de atuação e atualmente, minha principal área de desenvolvimento é Front-end. Até aqui minha trajeytória foi marcada por projetos desafiadores e aqui abaixo você poderá encontrar alguns deles! <br/>Faça uma boa viagem </p>
+                <p className={style.myDescription} >Hello world! Eu me chamo Nicolle, tenho 18 anos e tenho + de 1 ano de experiência no mundo digital. Sou apaixonada pela minha área de atuação e atualmente, minha principal área de desenvolvimento é Front-end. Até aqui minha trajeytória foi marcada por projetos desafiadores e aqui abaixo você poderá encontrar alguns deles! <br/>Faça uma boa viagem </p>
                 
                 <nav className={style.contacts}>
                     <ul>
@@ -110,7 +112,7 @@ function App() {
             
             <section className={style.content}>
                 
-                <h1 className={style.titles}>Formação acadêmica Experiencias de trabalho</h1>
+                <h1 className={style.titles}>Formação acadêmica & Experiencias de trabalho</h1>
                 
                 <div className={style.imgAcademic}>
                     <figure>
@@ -188,7 +190,7 @@ function App() {
             </div> */}
         
     <div/>
-
+    </main>
   </>
   )
 }

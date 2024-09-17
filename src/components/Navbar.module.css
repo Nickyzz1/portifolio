@@ -22,7 +22,9 @@ ul {
 
 .menu {
     display: flex;
-    direction: rtl;
+    justify-content: center;
+    flex-wrap: wrap; 
     padding: 10px;
     margin-right: 20px;
+    justify-content: space-between; 
 }
