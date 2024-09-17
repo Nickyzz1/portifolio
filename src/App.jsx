@@ -163,7 +163,7 @@ function App() {
                     
                 </div>
                 
-                <p className={style.paragraph} >Um projeto feito com integração de IoT, web, firebase e banco de dados, realizado na Bosch Curitiba. A ideia do projero é uma bateria elétrica construída do zero com prototipagem IoT utilizando o microcontrolador ESP32 para fazer a comunicação dos sinais sensoriais e web. <br/>Tecnologias usadas: Thonny, VS Code, IoT, JavaScript, css, html, firebase, sql server. <br/> <a className={style.github} href="https://github.com/sasa2754/Drums_Hero">Link Github</a> </p>
+                <p className={`${style.paragraph} ${style.card}`}  >Um projeto feito com integração de IoT, web, firebase e banco de dados, realizado na Bosch Curitiba. A ideia do projero é uma bateria elétrica construída do zero com prototipagem IoT utilizando o microcontrolador ESP32 para fazer a comunicação dos sinais sensoriais e web. <br/>Tecnologias usadas: Thonny, VS Code, IoT, JavaScript, css, html, firebase, sql server. <br/> <a className={style.github} href="https://github.com/sasa2754/Drums_Hero">Link Github</a> </p>
 
                 
                 
@@ -178,7 +178,7 @@ function App() {
                 
                 </div>
                 
-                <p  className={style.paragraph}  >Inspirado no Bomberman, projeto final do 1º semestre de Analise e Desenvolvimento de Sistemas no Senai foi chamado de Bomber Boye foi completamente programado em C e construido em 7 dias. <br />  <a href="https://github.com/wallacin07/ProjetoFinalC">Link github</a> </p>
+                <p className={`${style.paragraph} ${style.card}`} >Inspirado no Bomberman, projeto final do 1º semestre de Analise e Desenvolvimento de Sistemas no Senai foi chamado de Bomber Boye foi completamente programado em C e construido em 7 dias. <br />  <a href="https://github.com/wallacin07/ProjetoFinalC">Link github</a> </p>
 
             <div/>
 

@@ -10,6 +10,7 @@
   --red-soft: #ff5757;
   --white: rgb(255, 255, 255);
   --bs-button: 0 0 3px var(--red);
+  --br : 10px;
   color: var(--white);
   background-color: black;
 }
@@ -179,7 +180,7 @@
   
   .academic:hover{
       transform: scale(1.1);
-      box-shadow: 0 0 13px rgba(255, 255, 255, 0.8);
+      box-shadow: var(--bs)
   }
   
   .hability
@@ -271,6 +272,13 @@
 
   }
   
+.card{
+  border: solid 1px var(--white);
+  border-radius: var(--br);
+  padding: 10px;
+  box-shadow: var(--bs-soft);
+}
+
   .imgs_projeto img{
       box-shadow: 0 0 1px rgba(255, 255, 255, 0.8);
   }

@@ -57,7 +57,11 @@ main{
   flex-wrap: wrap;
 }
 
-@media(min-width: 600px)
+@media(max-width: 390px)
 {
-
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
